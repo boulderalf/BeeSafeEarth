@@ -1,0 +1,155 @@
+{
+  "bounds": [
+    -105.5347,
+    39.8971,
+    -105.0403,
+    40.1999
+  ],
+  "center": [
+    -105.2758,
+    40.0318,
+    11
+  ],
+  "format": "png8",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 18,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -105.28239880715525,
+        39.96949006536292,
+        -105.23634409299235,
+        40.04301672473159
+      ],
+      "id": "beesafeneighborhood",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\\\personal\\\\BeeSafeBoulder\\\\data\\\\BeeSafeNeighborhood\\\\BeeSafeNeighborhood.shp",
+        "id": "beesafeneighborhood",
+        "project": "BeeSafeBoulderCanvass",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "beesafeneighborhood"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -105.28228487905483,
+        39.971465107306045,
+        -105.24144769439353,
+        40.04151485313714
+      ],
+      "id": "blocks",
+      "class": "blocks",
+      "Datasource": {
+        "file": "C:\\\\personal\\\\BeeSafeBoulder\\\\data\\\\blocks_sp\\\\blocks.shp",
+        "id": "blocks",
+        "project": "BeeSafeBoulderCanvass",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "blocks"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -105.30451534568226,
+        39.95259088980417,
+        -105.13119044697125,
+        40.1014957934759
+      ],
+      "id": "parcels",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\\\personal\\\\BeeSafeBoulder\\\\data\\\\parcels\\\\Parcels.shp",
+        "id": "parcels",
+        "project": "BeeSafeBoulderCanvass",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parcels"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -105.66365241546686,
+        39.913201968546524,
+        -105.05086537577677,
+        40.26275790928157
+      ],
+      "id": "addresses",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\addresses\\addresses.shp",
+        "id": "addresses",
+        "project": "BeeSafeBoulderCanvass",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "addresses"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -105.68316323491682,
+        39.90503465315868,
+        -105.01770382711823,
+        40.28871932612898
+      ],
+      "id": "streets",
+      "class": "streets",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\cdot_boulder_roads\\LOCAL_ROADS.shp",
+        "id": "streets",
+        "project": "BeeSafeBoulderCanvass",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "streets"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -105.57803053474547,
+        39.90815794238495,
+        -105.03644566380746,
+        40.26180180013412
+      ],
+      "id": "majorroads",
+      "class": "streets",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\cdot_boulder_roads\\MAJOR_ROADS.shp",
+        "id": "majorroads",
+        "project": "BeeSafeBoulderCanvass",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "majorroads"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "boulderalf.map-5vjafbf3",
+  "name": "BeeSafeBoulderCanvass",
+  "description": "BeeSafeBoulderCanvass",
+  "attribution": ""
+}

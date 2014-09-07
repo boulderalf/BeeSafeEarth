@@ -1,0 +1,10 @@
+data/
+*.pyc
+GoogleDrive-BeeSafe/
+canvass-packages/*.html
+canvass-packages/*.png
+BeeSafeBoulder.vpp
+BeeSafeBoulder.vpp~1
+TileMillProjects/export/
+TileMillProjects/output/
+TileMillProjects/project/test/

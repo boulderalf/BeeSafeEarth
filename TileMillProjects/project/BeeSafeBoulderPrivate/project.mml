@@ -1,0 +1,175 @@
+{
+  "bounds": [
+    -105.3088,
+    39.9708,
+    -105.2065,
+    40.0523
+  ],
+  "center": [
+    -105.2559,
+    40.0124,
+    11
+  ],
+  "format": "png8",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "highway.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -115.653597716325,
+        36.118324850176386,
+        -115.653597716325,
+        36.118324850176386
+      ],
+      "id": "beesafeneighborhood",
+      "class": "beesafeneighbornood",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\BeeSafeNeighborhood\\BeeSafeNeighborhood.shp",
+        "id": "beesafeneighborhood",
+        "project": "BeeSafeBoulderPrivate",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "beesafeneighborhood"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -105.28223890138926,
+        39.985870226768505,
+        -105.24144769439353,
+        40.04151485313714
+      ],
+      "id": "blocks",
+      "class": "blocks",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\blocks_sp\\blocks.shp",
+        "id": "blocks",
+        "project": "BeeSafeBoulderPrivate",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "blocks",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -105.30451534680968,
+        39.95259088981707,
+        -105.13119044810111,
+        40.10149579349048
+      ],
+      "id": "parcels",
+      "class": "parcels",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\parcels\\Parcels.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "parcels"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -105.66365241546686,
+        39.913201968546524,
+        -105.05086537577677,
+        40.26275790928157
+      ],
+      "id": "boulderaddresses",
+      "class": "boulderaddresses",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\addresses\\addresses.shp",
+        "id": "boulderaddresses",
+        "project": "BeeSafeBoulderPrivate",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "boulderaddresses"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -105.54074670346253,
+        39.73915550683206,
+        -104.04323919757114,
+        40.994474890327304
+      ],
+      "id": "routes",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\cdot_boulder_roads\\ROUTES.shp",
+        "id": "routes",
+        "project": "BeeSafeBoulderPrivate",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "routes"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -105.57803053474547,
+        39.90815794238495,
+        -105.03644566380746,
+        40.26180180013412
+      ],
+      "id": "majorroads",
+      "class": "labeledroads",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\cdot_boulder_roads\\MAJOR_ROADS.shp",
+        "id": "majorroads",
+        "project": "BeeSafeBoulderPrivate",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "majorroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -105.68316323491682,
+        39.90503465315868,
+        -105.01770382711823,
+        40.28871932612898
+      ],
+      "id": "localroads",
+      "class": "labeledroads",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\cdot_boulder_roads\\LOCAL_ROADS.shp",
+        "id": "localroads",
+        "project": "BeeSafeBoulderPrivate",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "localroads"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "BeeSafeBoulderPrivate",
+  "description": "BeeSafeBoulderPrivate",
+  "attribution": ""
+}

@@ -1,0 +1,79 @@
+{
+  "bounds": [
+    -105.6718,
+    39.9069,
+    -105.0538,
+    40.2725
+  ],
+  "center": [
+    -105.2653,
+    40.0122,
+    12
+  ],
+  "format": "png8",
+  "interactivity": {
+    "layer": "neighborhood",
+    "template_teaser": "<h1>{{{name}}}</h1>\n<table>\n<tr>\n    <td>Total Addresses</td>\n    <td>{{{add_total}}}</td>\n  </tr>\n  <tr>\n    <td>Pledged Addresses</td>\n    <td>{{{add_yes}}}</td>\n  </tr>\n</table>\n<img src=\"http://chart.googleapis.com/chart?cht=p&chs=200x120&chdl=Pledged|Not%20Pledged&chdlp=r&chco=00ff00&chd=t:{{{add_yes}}},{{{not_yes}}}\"/>",
+    "template_full": "",
+    "fields": [
+      "name",
+      "add_total",
+      "add_yes",
+      "not_yes"
+    ]
+  },
+  "minzoom": 0,
+  "maxzoom": 15,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        -105.66365241546686,
+        39.913201968546524,
+        -105.05086537577677,
+        40.26275790928157
+      ],
+      "id": "address",
+      "class": "address",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\addresses\\addresses.shp",
+        "id": "address",
+        "project": "BeeSafeBoulderPublic",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "address"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -105.28237364435249,
+        39.97187268471271,
+        -105.13611760664463,
+        40.188596526769444
+      ],
+      "id": "neighborhood",
+      "class": "neighborhood",
+      "Datasource": {
+        "file": "C:/personal/BeeSafeBoulder/data/BeeSafeNeighborhood/BeeSafeNeighborhood.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "neighborhood"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "boulderalf.map-5vjafbf3",
+  "name": "BeeSafeBoulderPublic",
+  "description": "public-facing map of Bee Safe Neighborhoods",
+  "attribution": "",
+  "legend": ""
+}
