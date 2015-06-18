@@ -2,7 +2,7 @@
 @NO: #cc2121;
 @MAYBE: #ff0;
 @NOT_REACHED: #ff0;
-@MARKER_WIDTH: 20;
+@MARKER_WIDTH: 30;
 
 
 .address[PLEDGE='YES'][SHOW_ON_MA='1'] {
@@ -42,4 +42,9 @@
   line-width:0.5;
   polygon-opacity:0.5;
   polygon-fill:#ae8;
+  
+  [certified=1] {
+    line-color:#ff0;
+    polygon-fill:#ff0;
+  }
 }

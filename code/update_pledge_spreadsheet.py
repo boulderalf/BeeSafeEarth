@@ -1,22 +1,23 @@
 from osgeo import ogr
-import gspread # easy_install gspread
+import gspread # pip install gspread
 import os
 import json
 from pprint import pprint
 from dataset import dataset
 import winsound
+from credentials import Credentials
 
-email = 'GOOGLE_EMAIL_ADDRESS'
-password = 'GOOGLE_PASSWORD'
 
 # updates pledge spreadsheet with ASR_ID and Normalized Address
 # updates parcels with pledge level
 # updates addresses with pledge level
 
-
+# see http://gspread.readthedocs.org/en/latest/oauth2.html
 
 with dataset() as ds:
-    sht = gspread.login(email, password).open("BeeSafe Pledge (Responses)").worksheet("Form Responses 1")
+
+    gc = gspread.authorize(Credentials())
+    sht = gc.open("BeeSafe Pledge (Responses)").worksheet("Form Responses 1")
 
     # call get_all_values() to get the header and
     values = sht.get_all_values()

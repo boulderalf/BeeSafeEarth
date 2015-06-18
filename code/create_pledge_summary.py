@@ -2,11 +2,11 @@ import gspread # easy_install gspread
 import os
 from dataset import dataset
 import csv
+from credentials import Credentials
 
-email = 'GOOGLE_EMAIL_ADDRESS'
-password = 'GOOGLE_PASSWORD'
+gc = gspread.authorize(Credentials())
 
-sht = gspread.login(email, password).open("BeeSafe Pledge (Responses)").worksheet("Form Responses 1")
+sht = gc.open("BeeSafe Pledge (Responses)").worksheet("Form Responses 1")
 
 # call get_all_values() to get the header and
 values = sht.get_all_values()

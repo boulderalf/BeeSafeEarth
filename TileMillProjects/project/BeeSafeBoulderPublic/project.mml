@@ -30,6 +30,27 @@
   ],
   "Layer": [
     {
+      "geometry": "polygon",
+      "extent": [
+        -105.29468744629128,
+        39.97189527847446,
+        -105.13611760664463,
+        40.188596526769444
+      ],
+      "id": "neighborhood",
+      "class": "neighborhood",
+      "Datasource": {
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\BeeSafeNeighborhood\\BeeSafeNeighborhood.shp",
+        "id": "neighborhood",
+        "project": "BeeSafeBoulderPublic",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "neighborhood"
+    },
+    {
       "geometry": "point",
       "extent": [
         -105.66365241546686,
@@ -49,24 +70,6 @@
       "srs": "",
       "advanced": {},
       "name": "address"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -105.28237364435249,
-        39.97187268471271,
-        -105.13611760664463,
-        40.188596526769444
-      ],
-      "id": "neighborhood",
-      "class": "neighborhood",
-      "Datasource": {
-        "file": "C:/personal/BeeSafeBoulder/data/BeeSafeNeighborhood/BeeSafeNeighborhood.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "neighborhood"
     }
   ],
   "scale": 1,

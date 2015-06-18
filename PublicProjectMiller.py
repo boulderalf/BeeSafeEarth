@@ -36,7 +36,7 @@ projects = [
     {'projectName': 'BeeSafeBoulderPublic',
      'bbox': '-105.6674,39.9098,-105.0558,40.2608',
      'minzoom': 0,
-     'maxzoom': 15}
+     'maxzoom': 16}
 ]
 
 for project in projects:
@@ -47,7 +47,8 @@ for project in projects:
               bbox=project['bbox'],
               width=400,
               height=400,
-              files=projectFilesLocation)
+              files=projectFilesLocation,
+              quiet=False)
 
     filename = os.path.join(output_dir, '%s.mbtiles' % (name))
 
@@ -57,7 +58,6 @@ for project in projects:
               minzoom=project['minzoom'],
               maxzoom=project['maxzoom'],
               metatile=2,
-              quiet=True,
               files=projectFilesLocation)
 
     tm.modify_metadata(filename,

@@ -79,8 +79,8 @@ with dataset() as ds:
         count = 0
         row_page = stg.getInstanceOf('row_page')
         package.setAttribute('row_page', row_page)
-        firstPageRows = 3
-        subsequentPageRows = 7
+        firstPageRows = 12
+        subsequentPageRows = 36
         rowsPerPage = firstPageRows
 
         for address in addressList:
@@ -129,3 +129,4 @@ with dataset() as ds:
             os.unlink(newPdfFileName)
 
         os.rename(pdfFileName,newPdfFileName)
+

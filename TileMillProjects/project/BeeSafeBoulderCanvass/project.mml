@@ -30,7 +30,7 @@
       "id": "beesafeneighborhood",
       "class": "",
       "Datasource": {
-        "file": "C:\\\\personal\\\\BeeSafeBoulder\\\\data\\\\BeeSafeNeighborhood\\\\BeeSafeNeighborhood.shp",
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\BeeSafeNeighborhood\\BeeSafeNeighborhood.shp",
         "id": "beesafeneighborhood",
         "project": "BeeSafeBoulderCanvass",
         "srs": ""
@@ -43,18 +43,15 @@
     {
       "geometry": "polygon",
       "extent": [
-        -105.28228487905483,
-        39.971465107306045,
-        -105.24144769439353,
-        40.04151485313714
+        -105.35788464804892,
+        39.97196373831606,
+        -105.14207754264261,
+        40.18850006761449
       ],
       "id": "blocks",
       "class": "blocks",
       "Datasource": {
-        "file": "C:\\\\personal\\\\BeeSafeBoulder\\\\data\\\\blocks_sp\\\\blocks.shp",
-        "id": "blocks",
-        "project": "BeeSafeBoulderCanvass",
-        "srs": ""
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\blocks_sp\\blocks.shp"
       },
       "srs-name": "autodetect",
       "srs": "",
@@ -72,7 +69,7 @@
       "id": "parcels",
       "class": "",
       "Datasource": {
-        "file": "C:\\\\personal\\\\BeeSafeBoulder\\\\data\\\\parcels\\\\Parcels.shp",
+        "file": "C:\\personal\\BeeSafeBoulder\\data\\parcels\\Parcels.shp",
         "id": "parcels",
         "project": "BeeSafeBoulderCanvass",
         "srs": ""

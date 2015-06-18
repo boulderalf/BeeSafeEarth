@@ -99,7 +99,8 @@ Map {
   	line-join:round;
 	text-name:"[ROUTENAME]";
   	text-placement:line;
-  	text-face-name: "Arial Bold"; 
+  	text-face-name: "Arial Bold";
+  	text-halo-radius:2;
 }
 
 #routes {
