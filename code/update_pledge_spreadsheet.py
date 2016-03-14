@@ -89,7 +89,7 @@ with dataset() as ds:
             # updated by this script.  Continue to the next row.
             continue
 
-        entered_street_address = row['Street Address']
+        entered_street_address = row['Street Address and Zip Code (No P.O. Boxes, please)']
 
         matches = []
         # first, try a strict match

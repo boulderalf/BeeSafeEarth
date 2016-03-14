@@ -72,8 +72,11 @@ with dataset() as ds:
                 if asr_id in asr_id_rows:
                     row = asr_id_rows[asr_id]
 
-                    writer.writerow({'Name':     row['Name'],
-                                     'Address':  row['Normalized Street Address'],
-                                     'Email':    row['Email Address'],
-                                     'Pledge':   row['Pledge Level'],
-                                     'Comments': row['Comments']})
+                    try:
+                        writer.writerow({'Name':     row['Name'].encode('ascii','ignore'),
+                                         'Address':  row['Normalized Street Address'],
+                                         'Email':    row['Email Address'],
+                                         'Pledge':   row['Pledge Level'],
+                                         'Comments': row['Comments'].encode('ascii','ignore')})
+                    except UnicodeEncodeError:
+                        print row
